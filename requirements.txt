@@ -1,0 +1,3 @@
+prometheus-pandas
+pandas
+requests
