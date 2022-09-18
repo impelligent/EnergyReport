@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Reports
-# reports/
+reports/
 
 # Distribution / packaging
 .Python
