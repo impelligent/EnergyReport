@@ -37,7 +37,7 @@ class EnergyReport:
         results['Cost $USD'] = round(self.powerConversion(sums), 2)
         # filename = f'energy_report-{datetime.now().strftime("%m-%d-%YT%H:%M:%S")}.csv'
         filename = f'energy_report-{self.start_date.split("T")[0]}-to-{self.end_date.split("T")[0]}.csv'
-        print(f"saving to {filename}")
+        print(f"Saving Energy Report as : {filename}")
         results.to_csv(f"{self.report_path}/{filename}")
 
 
