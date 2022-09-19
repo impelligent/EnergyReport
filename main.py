@@ -14,7 +14,7 @@ class EnergyReport:
         self.end_date = '2022-09-30T23:59:59Z'
         self.increment = '1d'
         print("Begin Report Generation")
-        # self.generateReport()
+        self.generateReport()
         print("Report Generation Complete.")
 
     def powerConversion(self, wattage):
@@ -42,4 +42,3 @@ class EnergyReport:
 
 
 report = EnergyReport()
-report.generateReport()
